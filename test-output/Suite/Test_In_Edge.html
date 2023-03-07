@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test_In_Edge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 05 15:19:13 GMT 2023</td>
+<td>Started on:</td><td>Mon Mar 06 01:11:39 GMT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>87 seconds (87460 ms)</td>
+<tr><td>Total time:</td><td>58 seconds (58713 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,28 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page of Hudl.com with valid email and password", "Optional[Login functionality of Hudl.com]"</td>
+<td><div><pre>java.lang.RuntimeException
+	at com.hudl.selenium.basemethods.BaseMethods.click(BaseMethods.java:141)
+	at com.hudl.steps.pages.WebsitePage.clickLoginButton(WebsitePage.java:21)
+	at ✽.The user navigates to the login page(file:///C:/Users/17kri/eclipse-workspace/hudleAutomation/src/main/java/features/Login.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace722296624", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace722296624'><pre>java.lang.RuntimeException
+	at com.hudl.selenium.basemethods.BaseMethods.click(BaseMethods.java:141)
+	at com.hudl.steps.pages.WebsitePage.clickLoginButton(WebsitePage.java:21)
+	at ✽.The user navigates to the login page(file:///C:/Users/17kri/eclipse-workspace/hudleAutomation/src/main/java/features/Login.feature:6)
+</pre></div></td>
+<td>2</td>
+<td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,39 +97,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page of Hudl.com with valid email and password", "Optional[Login functionality of Hudl.com]"</td>
+<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login functionality for invalid email and password", "Optional[Login functionality of Hudl.com]"</td>
 <td></td>
-<td>11</td>
+<td>2</td>
 <td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
 <tr>
 <td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login functionality for invalid email and password", "Optional[Login functionality of Hudl.com]"</td>
 <td></td>
-<td>4</td>
-<td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
-<tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login functionality for invalid email and password", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>5</td>
+<td>2</td>
 <td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
 <tr>
 <td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate if the links in the Login page are accessible", "Optional[Login functionality of Hudl.com]"</td>
 <td></td>
-<td>4</td>
+<td>2</td>
 <td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
 <tr>
 <td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate if the links in the Login page are accessible", "Optional[Login functionality of Hudl.com]"</td>
 <td></td>
-<td>4</td>
+<td>2</td>
 <td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
 <tr>
 <td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate if the links in the Login page are accessible", "Optional[Login functionality of Hudl.com]"</td>
 <td></td>
-<td>4</td>
+<td>2</td>
 <td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
 <tr>
 <td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from login page to Website page", "Optional[Login functionality of Hudl.com]"</td>
 <td></td>
-<td>8</td>
+<td>5</td>
 <td>com.hudl.testcases.Tests_LoginModule@11392934</td></tr>
 </table><p>
 </body>

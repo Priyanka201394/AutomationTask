@@ -1,4 +1,4 @@
- package com.hudl.selenium.interfaces;
+ package com.selenium.interfaces;
 
 import org.openqa.selenium.WebElement;
 

@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.464 s - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.855 s <<< FAILURE! - in TestSuite
+com.testcases.Tests_LoginModule.runScenario["Validate the login functionality for invalid email and password", "Optional[Login functionality of QA Automation Task]"](1)  Time elapsed: 2.826 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.steps.pages.LoginPage.userCredentialsCheck(LoginPage.java:51)
+	at ✽.The login page should display error with fail status(file:///C:/Users/17kri/eclipse-workspace/QAAutomationTask/src/main/java/features/Login.feature:8)
+
+com.testcases.Tests_LoginModule.runScenario["Validate the forgot Password functionality for invalid email", "Optional[Login functionality of QA Automation Task]"](2)  Time elapsed: 2.816 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.steps.pages.ForgotPassword.forgotPAssword(ForgotPassword.java:35)
+	at ✽.The forgot page should display error with fail status(file:///C:/Users/17kri/eclipse-workspace/QAAutomationTask/src/main/java/features/Login.feature:15)
+

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test_In_Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 05 15:17:59 GMT 2023</td>
+<td>Started on:</td><td>Tue Mar 07 17:58:56 GMT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>74 seconds (74016 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18110 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,48 +67,47 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page of Hudl.com with valid email and password", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>11</td>
-<td>com.hudl.testcases.Tests_LoginModule@6221a451</td></tr>
+<td title='com.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login functionality for invalid email and password", "Optional[Login functionality of QA Automation Task]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.steps.pages.LoginPage.userCredentialsCheck(LoginPage.java:51)
+	at ✽.The login page should display error with fail status(file:///C:/Users/17kri/eclipse-workspace/QAAutomationTask/src/main/java/features/Login.feature:8)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1600200315", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1600200315'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.steps.pages.LoginPage.userCredentialsCheck(LoginPage.java:51)
+	at ✽.The login page should display error with fail status(file:///C:/Users/17kri/eclipse-workspace/QAAutomationTask/src/main/java/features/Login.feature:8)
+</pre></div></td>
+<td>2</td>
+<td>com.testcases.Tests_LoginModule@6221a451</td></tr>
 <tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login functionality for invalid email and password", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>4</td>
-<td>com.hudl.testcases.Tests_LoginModule@6221a451</td></tr>
-<tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login functionality for invalid email and password", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>4</td>
-<td>com.hudl.testcases.Tests_LoginModule@6221a451</td></tr>
-<tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate if the links in the Login page are accessible", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>4</td>
-<td>com.hudl.testcases.Tests_LoginModule@6221a451</td></tr>
-<tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate if the links in the Login page are accessible", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>4</td>
-<td>com.hudl.testcases.Tests_LoginModule@6221a451</td></tr>
-<tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate if the links in the Login page are accessible", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>4</td>
-<td>com.hudl.testcases.Tests_LoginModule@6221a451</td></tr>
-<tr>
-<td title='com.hudl.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.hudl.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from login page to Website page", "Optional[Login functionality of Hudl.com]"</td>
-<td></td>
-<td>10</td>
-<td>com.hudl.testcases.Tests_LoginModule@6221a451</td></tr>
+<td title='com.testcases.Tests_LoginModule.runScenario()'><b>runScenario</b><br>Test class: com.testcases.Tests_LoginModule<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the forgot Password functionality for invalid email", "Optional[Login functionality of QA Automation Task]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.steps.pages.ForgotPassword.forgotPAssword(ForgotPassword.java:35)
+	at ✽.The forgot page should display error with fail status(file:///C:/Users/17kri/eclipse-workspace/QAAutomationTask/src/main/java/features/Login.feature:15)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1590260759", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1590260759'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at com.steps.pages.ForgotPassword.forgotPAssword(ForgotPassword.java:35)
+	at ✽.The forgot page should display error with fail status(file:///C:/Users/17kri/eclipse-workspace/QAAutomationTask/src/main/java/features/Login.feature:15)
+</pre></div></td>
+<td>3</td>
+<td>com.testcases.Tests_LoginModule@6221a451</td></tr>
 </table><p>
 </body>
 </html>

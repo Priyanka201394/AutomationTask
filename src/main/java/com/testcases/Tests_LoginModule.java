@@ -1,12 +1,12 @@
-package com.hudl.testcases;
+package com.testcases;
 
 import org.testng.annotations.BeforeTest;
 
-import com.hudl.testng.base.ProjectSpecificMethods;
+import com.testng.base.ProjectSpecificMethods;
 
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features = "src/main/java/features/Login.feature", glue = {"com.hudl.steps.pages"} ,monochrome = true)
+@CucumberOptions(features = "src/main/java/features/Login.feature", glue = {"com.steps.pages"} ,monochrome = true)
 public class Tests_LoginModule extends ProjectSpecificMethods {
 	
 	@BeforeTest

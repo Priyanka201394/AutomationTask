@@ -1,9 +1,8 @@
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\selenium\interfaces\ElementActions.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\testcases\Tests_LoginModule.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\steps\pages\WebsitePage.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\utils\Reporter.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\steps\pages\LoginPage.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\selenium\basemethods\BaseMethods.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\testng\base\ProjectSpecificMethods.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\selenium\interfaces\BrowserActions.java
-C:\Users\17kri\eclipse-workspace\hudleAutomation\src\main\java\com\hudl\steps\pages\HomePage.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\com\testng\base\ProjectSpecificMethods.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\com\steps\pages\ForgotPassword.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\com\selenium\interfaces\ElementActions.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\com\selenium\basemethods\BaseMethods.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\com\selenium\interfaces\BrowserActions.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\utils\Reporter.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\com\steps\pages\LoginPage.java
+C:\Users\17kri\eclipse-workspace\QAAutomationTask\src\main\java\com\testcases\Tests_LoginModule.java
